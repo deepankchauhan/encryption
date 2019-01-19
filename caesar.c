@@ -20,9 +20,10 @@ int main(int argc, string argv[])
         return 1;
     }
 
-
+    char p[100];        
     // prompting the user for plaintext
-    string p = get_string("plaintext: ");
+    printf("plaintext: ");
+    scanf("%c", &p[]);
 
     // Output
     printf("ciphertext: ");
