@@ -26,6 +26,7 @@ int main(int argc, string argv[])
 
     // Output
     printf("ciphertext: ");
+    
     // traversal of the string
     for (i = 0; i < strlen(p); i++)
     {
