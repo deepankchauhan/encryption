@@ -4,7 +4,7 @@
 #include <string.h>
 
 
-int main(int argc, string argv[])
+int main(int argc, char argv[])
 {
     int k = 0, i = 0, j = 0;
 
