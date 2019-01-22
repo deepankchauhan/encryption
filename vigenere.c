@@ -22,7 +22,7 @@ int main (int argc, string argv[2])
             strcpy(k, argv[1]);
         }
     }
-    eprintf ("%s\n",k);
+    printf ("%s\n",k);
 
     // prompting the user for plaintext
     string p = get_string("plaintext: ");
