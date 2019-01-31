@@ -38,16 +38,20 @@ int main (int argc, string argv[2])
             // if the input is Capital
             if (isupper (p[i]) && isupper (k[l]))
             {
+                for (l=0; l < strlen(k); l++){
                 j = (((int)p[i] - 64 + (int)k[l] - 65) % 26) + 64;
                 printf("%c", j);
                 l++;
+                }
             }
             // if the input is small
             else if (islower (p[i]) & islower (k[l]))
             {
+                for (l=0; l < strlen(k); l++){
                 j = (((int)p[i] - 96 + (int)k[l] - 97) % 26) + 96;
                 printf("%c", j);
                 l++;
+                } 
             }
             // if there is some space
             if (isspace (p[i]))
