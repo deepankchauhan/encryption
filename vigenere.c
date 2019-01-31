@@ -6,6 +6,7 @@ int main (int argc, string argv[2])
 {
     int a, i = 0, j = 0, l = 0, m = 0;
     char k[20];
+    char p;
 
 
      // key
@@ -24,7 +25,8 @@ int main (int argc, string argv[2])
     printf ("%s\n",k);
 
     // prompting the user for plaintext
-    string p = get_string("plaintext: ");
+    printf("plaintext:");
+    gets(p);
 //Issue
 ////////////////////////////////////////////////////////////////////////////////////
     // Output
