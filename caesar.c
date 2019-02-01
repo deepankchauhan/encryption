@@ -3,8 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-////////////////////////////////////////////
-//////////////////////////////////////////
+
+
 int main(int argc, char argv[])
 {
     int k = 0, i = 0, j = 0;
@@ -24,7 +24,7 @@ int main(int argc, char argv[])
     // prompting the user for plaintext
     printf("plaintext: ");
     scanf("%c", &p[]);
-/////////////////////////////////////////////////////////////////////////
+
     // Output
     printf("ciphertext: ");
     
