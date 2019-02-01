@@ -24,7 +24,7 @@ int main(int argc, char argv[])
     // prompting the user for plaintext
     printf("plaintext: ");
     scanf("%c", &p[]);
-
+////////////////////////////////////////
     // Output
     printf("ciphertext: ");
     
