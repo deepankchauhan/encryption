@@ -28,7 +28,7 @@ int main (int argc, string argv[2])
     printf("plaintext:");
     gets(p);
 //Issue
-/////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
     // Output
     printf("ciphertext: ");
     // traversal of the string
@@ -65,7 +65,7 @@ int main (int argc, string argv[2])
                 printf("%c", p[i]);
             }
         }
-///////////////////////////////////////////////
+///////////////////////////////////////////////////////////
     }
     printf("\n");
 }
